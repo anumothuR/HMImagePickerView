@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'HMImagePickerView_Example' do
+  pod 'HMImagePickerView', :path => '../'
+
+  target 'HMImagePickerView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
