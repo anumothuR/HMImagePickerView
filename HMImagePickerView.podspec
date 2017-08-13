@@ -18,7 +18,10 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+Spec
+Xcode 8+,
+iOS 10,
+Swift 3
                        DESC
 
   s.homepage         = 'https://github.com/anumothuR/HMImagePickerView'
@@ -28,13 +31,15 @@ TODO: Add long description of the pod here.
   s.source           = { :git => 'https://github.com/anumothuR/HMImagePickerView.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '9.0'
 
   s.source_files = 'HMImagePickerView/Classes/**/*'
+
+ 
   
-  # s.resource_bundles = {
-  #   'HMImagePickerView' => ['HMImagePickerView/Assets/*.png']
-  # }
+   s.resource_bundles = {
+     'HMImagePickerView' => ['HMImagePickerView/Assets/*.xib']
+   }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'

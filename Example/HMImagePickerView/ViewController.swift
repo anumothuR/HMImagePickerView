@@ -7,11 +7,16 @@
 //
 
 import UIKit
+import HMImagePickerView
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var chooseImageView: AMImagePickerView!
+
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        chooseImageView.viewcontroller = self
         // Do any additional setup after loading the view, typically from a nib.
     }
 

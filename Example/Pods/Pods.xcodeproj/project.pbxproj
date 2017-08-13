@@ -15,7 +15,8 @@
 		80483585B9570367A7DE3E56E64D92D3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		9378148C413805C81BFF2284A5DB56A0 /* HMImagePickerView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A4A8D6A838316B9B11170768D34B511B /* HMImagePickerView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AA048F2FCE2BC14FE8EAE182BF0961FF /* HMImagePickerView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1490D6ACD9EDED1E3AD69C15F4E2E2C4 /* HMImagePickerView-dummy.m */; };
-		CD61F8692221C05078129CDD08C16E34 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AD537545EAFC3AAB59BE7FBFBDCD902 /* ReplaceMe.swift */; };
+		F9742D881F40950400B0A31E /* AMImagePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9742D861F40950400B0A31E /* AMImagePickerView.swift */; };
+		F9742D8D1F40972C00B0A31E /* AMImagePickerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F9742D8A1F4096CB00B0A31E /* AMImagePickerView.xib */; };
 		FC80F1021AE63D0A2C3C9E760AD3F1B4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
@@ -31,23 +32,22 @@
 
 /* Begin PBXFileReference section */
 		027C2D355EC76DB91AA5A6747483E2AB /* Pods-HMImagePickerView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HMImagePickerView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		123B9A92A274CE4BD5F9DE0AA5C8C63D /* Pods-HMImagePickerView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-HMImagePickerView_Example.modulemap"; sourceTree = "<group>"; };
+		123B9A92A274CE4BD5F9DE0AA5C8C63D /* Pods-HMImagePickerView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-HMImagePickerView_Example.modulemap"; sourceTree = "<group>"; };
 		1490D6ACD9EDED1E3AD69C15F4E2E2C4 /* HMImagePickerView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HMImagePickerView-dummy.m"; sourceTree = "<group>"; };
-		1AD537545EAFC3AAB59BE7FBFBDCD902 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = HMImagePickerView/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		2476194D50BA0314A40CF0F4B5E9FF40 /* Pods-HMImagePickerView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HMImagePickerView_Tests-umbrella.h"; sourceTree = "<group>"; };
 		2A4744CC1E88AA67A894338727E3A636 /* Pods-HMImagePickerView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HMImagePickerView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		2AF3ED3CC5089D75CBB5BE1C6C37FB42 /* Pods-HMImagePickerView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HMImagePickerView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		2FFEC55EB171D9A3463651E8058F2E10 /* Pods-HMImagePickerView_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HMImagePickerView_Example-resources.sh"; sourceTree = "<group>"; };
 		315E168AD2CFEE8DE69E371575A487BC /* Pods-HMImagePickerView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HMImagePickerView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		3295D78A34E94B8D0F6FCC9EB42CB632 /* HMImagePickerView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = HMImagePickerView.modulemap; sourceTree = "<group>"; };
+		3295D78A34E94B8D0F6FCC9EB42CB632 /* HMImagePickerView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = HMImagePickerView.modulemap; sourceTree = "<group>"; };
 		38226C71D760499E549BA80256209644 /* Pods-HMImagePickerView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HMImagePickerView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		6B67D6A7B3E1CC691CAB04D05A2FA6DA /* Pods-HMImagePickerView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HMImagePickerView_Example-frameworks.sh"; sourceTree = "<group>"; };
 		8C101899081495A6903E5F56F398B6FF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		903A2CD406C9A1D5AAC1F931035F0924 /* Pods-HMImagePickerView_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HMImagePickerView_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		94495436EEB727EE2A87DCE5B8A70EEC /* Pods_HMImagePickerView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HMImagePickerView_Tests.framework; path = "Pods-HMImagePickerView_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		94E8B87EFE2D89031F9C0E074EC1F65C /* Pods-HMImagePickerView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-HMImagePickerView_Tests.modulemap"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		94495436EEB727EE2A87DCE5B8A70EEC /* Pods_HMImagePickerView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HMImagePickerView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		94E8B87EFE2D89031F9C0E074EC1F65C /* Pods-HMImagePickerView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-HMImagePickerView_Tests.modulemap"; sourceTree = "<group>"; };
 		995611DEEF2F81DFB8C6BC3E6C19CF68 /* HMImagePickerView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HMImagePickerView-prefix.pch"; sourceTree = "<group>"; };
 		A4A8D6A838316B9B11170768D34B511B /* HMImagePickerView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HMImagePickerView-umbrella.h"; sourceTree = "<group>"; };
 		B3D09B245C88B07FAFFA0C82DFCA37A6 /* Pods-HMImagePickerView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HMImagePickerView_Example.debug.xcconfig"; sourceTree = "<group>"; };
@@ -57,11 +57,13 @@
 		BD6DF085AF08AEE03F0D28B7DFB79DBA /* Pods-HMImagePickerView_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HMImagePickerView_Tests-resources.sh"; sourceTree = "<group>"; };
 		C4B538B54E8C5FBB75B7CF87DCCBF811 /* Pods-HMImagePickerView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HMImagePickerView_Example.release.xcconfig"; sourceTree = "<group>"; };
 		CF4B55DE61F65927281462ABB51FCD3B /* Pods-HMImagePickerView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HMImagePickerView_Tests-dummy.m"; sourceTree = "<group>"; };
-		CF4E2B2B662BA6855568796A7C907093 /* HMImagePickerView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = HMImagePickerView.framework; path = HMImagePickerView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF4E2B2B662BA6855568796A7C907093 /* HMImagePickerView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HMImagePickerView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2BE142F590DA7439C9DD927D5CF57A3 /* HMImagePickerView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HMImagePickerView.xcconfig; sourceTree = "<group>"; };
 		DB8CBA0EA12E63C2558298C7CA934890 /* Pods-HMImagePickerView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HMImagePickerView_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		EF32030A0C316DDC29B33AB46914D3A3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FFF94E5E14BBCB74A01D722F100E7452 /* Pods_HMImagePickerView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HMImagePickerView_Example.framework; path = "Pods-HMImagePickerView_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9742D861F40950400B0A31E /* AMImagePickerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AMImagePickerView.swift; path = HMImagePickerView/Classes/AMImagePickerView.swift; sourceTree = "<group>"; };
+		F9742D8A1F4096CB00B0A31E /* AMImagePickerView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = AMImagePickerView.xib; path = HMImagePickerView/Classes/AMImagePickerView.xib; sourceTree = "<group>"; };
+		FFF94E5E14BBCB74A01D722F100E7452 /* Pods_HMImagePickerView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HMImagePickerView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -156,7 +158,7 @@
 		87EB1A89B86D47245EDBE34EE7AA7F0D /* HMImagePickerView */ = {
 			isa = PBXGroup;
 			children = (
-				1AD537545EAFC3AAB59BE7FBFBDCD902 /* ReplaceMe.swift */,
+				F9F25AC21F402C760054D5CE /* Pod */,
 				3FFA8F9CAE1DB72E47842E7A5EB6E097 /* Support Files */,
 			);
 			name = HMImagePickerView;
@@ -186,6 +188,23 @@
 				31959D11754ACEA9D35E016088110DA9 /* Pods-HMImagePickerView_Tests */,
 			);
 			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		F9F25AC21F402C760054D5CE /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				F9F25AC31F402C880054D5CE /* Classes */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		F9F25AC31F402C880054D5CE /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				F9742D8A1F4096CB00B0A31E /* AMImagePickerView.xib */,
+				F9742D861F40950400B0A31E /* AMImagePickerView.swift */,
+			);
+			name = Classes;
 			sourceTree = "<group>";
 		};
 		FD5E96593DF0718C1019FEE55E130C1A /* Pods-HMImagePickerView_Example */ = {
@@ -278,6 +297,7 @@
 				6BBCE3105B20FC34CCC32DCD593FB17F /* Sources */,
 				0EEF16FC53EC57D36D392098173D053B /* Frameworks */,
 				BC15495B362AE0C247690870E768BF5F /* Headers */,
+				F9742D8C1F40972500B0A31E /* Resources */,
 			);
 			buildRules = (
 			);
@@ -296,6 +316,11 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
 				LastUpgradeCheck = 0700;
+				TargetAttributes = {
+					5D614B4AE07676A67A3B9DF50C78FAE5 = {
+						LastSwiftMigration = 0800;
+					};
+				};
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -316,6 +341,17 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXResourcesBuildPhase section */
+		F9742D8C1F40972500B0A31E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9742D8D1F40972C00B0A31E /* AMImagePickerView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		033F946BBFDEDA05C2AB8ED0D091F419 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -329,8 +365,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F9742D881F40950400B0A31E /* AMImagePickerView.swift in Sources */,
 				AA048F2FCE2BC14FE8EAE182BF0961FF /* HMImagePickerView-dummy.m in Sources */,
-				CD61F8692221C05078129CDD08C16E34 /* ReplaceMe.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -397,6 +433,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D2BE142F590DA7439C9DD927D5CF57A3 /* HMImagePickerView.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -550,6 +587,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D2BE142F590DA7439C9DD927D5CF57A3 /* HMImagePickerView.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
